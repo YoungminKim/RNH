@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/main"   
+    > 
+
+    <ImageView 
+    android:id="@+id/Rank_btn"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="top|right"
+    android:layout_marginTop="150px"
+    android:layout_marginRight="100px"
+    android:src="@drawable/btn_rank"
+    />
+    
+    <LinearLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom|center"
+    android:layout_marginBottom="20px"
+    >
+    <ImageView 
+    android:id="@+id/Start_btn"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/btn_start"
+    />
+    <TextView 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text=" "
+    android:textSize="120px"
+    />
+    <ImageView 
+    android:id="@+id/Help_btn"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/btn_help"
+    />
+    </LinearLayout>
+   
+</FrameLayout>
